@@ -1,0 +1,30 @@
+#footer{
+    background: linear-gradient(155deg, #111 50%, #072f6b);
+    height: 150px;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 40px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #333;
+}
+
+#footer a{
+    padding: 6px;
+    background: linear-gradient(155deg, #072f6b 50%, #111);
+    margin-top: 5px;
+    border-radius: 8px;
+    color: #fff;
+    border: 1px solid #051937;
+}
+
+#footer a:visited{
+    color: #fff;
+}
+
+#footer a:hover{
+    background: linear-gradient(155deg, #111 50%, #072f6b);
+}
